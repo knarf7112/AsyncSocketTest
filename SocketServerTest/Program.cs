@@ -14,7 +14,7 @@ namespace SocketServerTest
     {
         static void Main(string[] args)
         {
-            AsyncSocketServer asyncServer = new AsyncSocketServer(6103);
+            AsyncSocketServer asyncServer = new AsyncSocketServer(6101);
             asyncServer.Start();
             
         }
